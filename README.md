@@ -9,9 +9,9 @@ if you cloned too fast without the recursive:
 ```bash
 git submodule update --init --recursive
 ```
-  /\
- /!!\  You still need to download the Vulkan SDK and install it so that the FindVulkan finds it
-/____\
+
+ /!!\  You still need to download the Vulkan SDK and install it so that the FindVulkan finds it<br>
+
 https://vulkan.lunarg.com/sdk/home
 
 ## Check the CMakeLists:
