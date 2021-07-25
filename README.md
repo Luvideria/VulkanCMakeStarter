@@ -17,6 +17,9 @@ mkdir build && cd build
 cmake -G"Unix Makefiles" ..
 make -j
 ```
+ /!!\  You still need to download the Vulkan SDK and install it so that the FindVulkan finds it<br>
+
+https://vulkan.lunarg.com/sdk/home
 
 ## Check the CMakeLists:
 
