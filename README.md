@@ -10,6 +10,14 @@ if you cloned too fast without the recursive:
 git submodule update --init --recursive
 ```
 
+build with:
+
+```bash
+mkdir build && cd build
+cmake -G"Unix Makefiles" ..
+make -j
+```
+
 ## Check the CMakeLists:
 
 There are 5 targets:

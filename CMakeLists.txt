@@ -1,12 +1,14 @@
 cmake_minimum_required(VERSION 3.16)
 set(CMAKE_CXX_STANDARD 17)
 
+project(MyProject)
+
 add_subdirectory(libs)
 find_package(Vulkan REQUIRED)
 
 ### You need this section and what is above for your project. The rest is for individual checking. ###
 ### Don't forget that there is a CMakeLists.txt in libs ! ###
-project(MyProject)
+
 set( SOURCE_FILE src/main.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILE})
